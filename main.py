@@ -79,7 +79,7 @@ email_label.grid(column=0, row=2)
 # EMAIL ENTRY
 email_entry = tkinter.Entry(width=35)
 email_entry.grid(column=1, row=2, columnspan=2, sticky='EW')
-email_entry.insert(0, 'danilo@gmail.com')
+email_entry.insert(0, 'email_padrao@email.com')
 
 # PASSWORD LABEL
 password_label = tkinter.Label(text='Password: ')
